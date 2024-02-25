@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    background-color: #b8c6db;
+    /* https://www.eggradients.com/gradient/tobacco-ad */
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+    background-color: rgb(246, 243, 240);
+    width: 600px;
+    box-shadow: 0px 0px 10px 5px rgba(30, 28, 28, 0.2);
+    border-radius: 10px;
+    max-width: 100%;
+    border-radius: 6px;
+}
+.quiz-header{
+    padding: 2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li label{
+    cursor: pointer;
+}
+ul li input{
+    cursor: pointer;
+}
+button{
+    /* for colors----->  (https://www.eggradients.com/gradient/tobacco-ad) */
+    background-color: #0984e3;
+    color: white;
+    width: 100%;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    display: block;
+    padding: 3px;
+}
+button:hover{
+    background-color: aqua;
+}
+button:focus{
+    background-color: aquamarine;
+    outline: none;
+}
+/*  In javascript use h2 */
+h2{
+    text-align: center;
+}
